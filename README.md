@@ -1,8 +1,8 @@
 # Online-Shopping-Site
 **Description**
-The user can shop online and choose to buy from Men, Women or Kids corner. 
-He can also create an account to be able to login by it later to buy from the website. 
-The website has an automatically collapsed Sidebar for navigation through pages of the website.
+  The user can shop online and choose to buy from Men, Women or Kids corner. 
+  He can also create an account to be able to login by it later to buy from the website. 
+  The website has an automatically collapsed Sidebar for navigation through pages of the website.
 
 **Home Page**
 Includes everything on this website. 
