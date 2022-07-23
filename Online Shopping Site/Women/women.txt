@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type ="text/javascript">
+sendtocart(number){
+switch (number) {
+case 1: 
+}
+}
+</script>
+<style type ="text/css">
+#cart{float:right;
+width:150px;
+height:75px;}
+img {width:300px;
+height:250px;
+float :center; }
+table ,td {border: 1px groove black;
+text-align :center;}
+</style>
+<title>
+Women
+</title>
+</head>
+<body>
+<h1 align="center" > <font size="+200" color="#ff00000">Women</font></h1>
+<figure>
+<img  id="cart" src="download.png" />
+<figcaption align="right">
+Your cart 
+</figcaption></figure>
+</h1>
+<br><br><br>
+<table>
+<tr> <td><img  id="1" src="1.jpg" />
+<figcaption>
+Forever 21 dress For Women <br>
+525.00 EGP<br>
+<input type="button" value="Add to cart"  onclick= "sendtocart('1')">
+</figcaption></td>
+<td><img id="2" src="2.jpg" />
+<figcaption>
+Dress ity by Lady Daiana<br>
+155.00 EGP <br>
+<input type="button" value="Add to cart" onclick= "sendtocart('2')">
+</figcaption></td>
+<td><figure id="3"> <img src="3.jpg" />
+<figcaption>
+Fendi Sunglasses For Women - 0215/S 0LB/JF<br>
+5,500.00 EGP<br>
+<input type="button" value="Add to cart" onclick= "sendtocart('3')">
+</figcaption>
+</figure></td></tr>
+<tr> <td><figure id="4"> <img src="4.jpg" />
+<figcaption>
+Generic Vacation Two Long Dress Literary Flax Loose Cotton Hemp Skirt Blue<br>
+EGP 245<br>
+<input type="button" value="Add to cart" onclick= "sendtocart('4')">
+</figcaption>
+</figure></td>
+<td><figure id="5"> <img src="5.jpg" />
+<figcaption>
+Generic Womens Chiffon Chevron Backless Mini Dress - Black & White<br>
+EGP 80<br>
+<input type="button" value="Add to cart" onclick= "sendtocart('5')">
+</figcaption>
+</figure></td>
+<td><figure id="6"> <img src="6.jpg" />
+<figcaption>
+Generic Lace splicing Chiffon dress Women's Beautiful dress one-piece dress Solid longuette <br>
+EGP 256<br>
+<input type="button" value="Add to cart" onclick= "sendtocart('6')">
+</figcaption>
+</figure></td>
+<tr> <td><figure id="7"> <img src="7.jpg" />
+<figcaption>
+Fashion New Casual Ladies European And American Fashion Color Matching Irregular Long-sleeved Sweater Knit Cardigan-Graye<br>
+EGP 166<br>
+<input type="button" value="Add to cart" onclick= "sendtocart('7')">
+</figcaption>
+</figure></td>
+<td><figure id="8"> <img src="8.jpg" />
+<figcaption>
+ZANZEA Women Long Sleeve Pockets Button Fashion Gray Wool Blend Coat<br>
+EGP 540<br>
+<input type="button" value="Add to cart" onclick= "sendtocart('8')">
+</figcaption>
+</figure></td>
+<td><figure id="9"> <img src="9.jpg" />
+<figcaption>
+Fashion Hiamok Women Floral Print Chiffon Loose Shawl Kimono <br>
+EGP 439 - EGP 474<br>
+<input type="button" value="Add to cart" onclick= "sendtocart('9')">
+</figcaption>
+</figure></td><tr>
+<td><figure id="10"> <img src="10.jpg" />
+<figcaption>
+Sun Set Women Cover-ups Swimwear Pure Kaftan Chiffon PINK <br>
+EGP 110<br>
+<input type="button" value="Add to cart" onclick= "sendtocart('10')">
+</figcaption>
+</figure></td>
+<td><figure id="11"> <img src="11.jpg" />
+<figcaption>
+SHEIN Palm Leaf Print Cut Out Tankini Set<br>
+EGP 363<br>
+<input type="button" value="Add to cart" onclick= "sendtocart('11')">
+</figcaption>
+</figure></td>
+<td><figure id="12"> <img src="12.jpg" />
+<figcaption>
+Generic CarrKen Flap Wallets - Wallet For Women - Purple<br>
+EGP 363<br>
+<input type="button" value="Add to cart" onclick= "sendtocart('12')">
+</figcaption>
+</figure></td>
+<tr><td><figure id="13"> <img src="13.jpg" />
+<figcaption>
+Generic Eclipse Glasses Woman Cat Vintage Metal Frame Mirror Sunglasses<br>
+EGP 116<br>
+<input type="button" value="Add to cart" onclick= "sendtocart('13')">
+</figcaption>
+</figure></td>
+<td><figure id="14"> <img src="14.jpg" />
+<figcaption>
+Fashion Women Summer Straw Beach Hat - Light Blue<br>
+EGP 76<br>
+<input type="button" value="Add to cart" onclick= "sendtocart('14')">
+</figcaption>
+</figure></td>
+<td><figure id="15"> <img src="15.jpg" />
+<figcaption>
+Activ Women's Indoor Slipper - Pink<br>
+EGP 89<br>
+<input type="button" value="Add to cart" onclick= "sendtocart('15')">
+</figcaption>
+</figure></td>
+</tr><tr><td><figure id="16"> <img src="16.jpg" />
+<figcaption>
+Morrow Wear Front Tie Pants - Light Brown<br>
+EGP 130<br>
+<input type="button" value="Add to cart" onclick= "sendtocart('16')">
+</figcaption>
+</figure></td>
+<td><figure id="17"> <img src="17.jpg" />
+<figcaption>
+Fashion Hiamok Women's Summer Fashion Wedge Slipper<br>
+EGP 217<br>
+<input type="button" value="Add to cart" onclick= "sendtocart('17')">
+</figcaption>
+</figure></td>
+<td><figure id="18"> <img src="18.jpg" />
+<figcaption>
+ZANZEA ZANZEA Women Summer Casual Tank Tops Ruffles Sleeveless Crew Neck Shirt Tee Camisole Blouse (White)<br>
+EGP 172 - EGP 426<br>
+<input type="button" value="Add to cart" onclick= "sendtocart('18')">
+</figcaption>
+</figure></td>
+<tr><td><figure id="19"> <img src="19.jpg" />
+<figcaption>
+Defacto Woman Woven Top Long Sleeve Woven Tunic - BE389<br>
+EGP 399<br>
+<input type="button" value="Add to cart" onclick= "sendtocart('19')">
+</figcaption>
+</figure></td>
+<td><figure id="20"> <img src="20.jpg" />
+<figcaption>
+ZANZEA Women Casual Long Sleeve Cotton Blouse T Shirt Loose Top<br>
+EGP 183 - EGP 185<br>
+<input type="button" value="Add to cart" onclick= "sendtocart('20')">
+</figcaption>
+</figure></td>
+<td><figure id="21"> <img src="21.jpg" />
+<figcaption>
+Generic Neckline Long Dress - White<br>
+EGP 245<br>
+<input type="button" value="Add to cart" onclick= "sendtocart('21')">
+</figcaption>
+</figure></td>
+
+</table>
+</body>

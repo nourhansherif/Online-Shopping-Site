@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type ="text/javascript">
+
+function sendtocart(number){
+if (number==1) var temp = confirm("Are you sure you want yo buy ( Andora Basic Solid V-Neck Slip On T-shirt - Baby Blue ) for (99 L.E) ?")  ;
+else if (number==2) var temp = confirm("Are you sure you want yo buy (Activ Solid Men Short Sleeves Round Neck T-Shirt - Orange ) for (89 L.E) ?")  ;
+else if (number==3) var temp = confirm("Are you sure you want yo buy ( Street Fashion V-Neck Short Sleeves Slip On T-shirt - Navy Blue) for (110 L.E) ?")  ;
+else if (number==4) var temp = confirm("Are you sure you want yo buy ( Fashion Korean Version Of The Coat Fashion Wool Double-breasted Long Trench Coat Coat-black) for (677 L.E) ?")  ;
+else if (number==5) var temp = confirm("Are you sure you want yo buy (Generic New Arrivel Casual Jacket Coat Men's Winter Long Sleeve Jacket Slim Fit Stand Collar-blue ) for (388 L.E) ?")  ;
+else if (number==6)var temp = confirm("Are you sure you want yo buy ( Fashion Men's Casual Lace-up Comfortable Breathable Sneakers-grey  ) for (604L.E) ?")  ;
+else if (number==7) var temp = confirm("Are you sure you want yo buy ( Fashion Winter Autumn Mens Plus-size Cotton Denim Slim-fit Straight Long Jeans Trouser-Dark Blue ) for (332 L.E) ?")  ;
+else if (number==8) var temp = confirm("Are you sure you want yo buy ( Andora Canvas Slip On Shoes - White ) for (179 L.E) ?")  ;
+else if (number==9) var temp = confirm("Are you sure you want yo buy ( Defacto Man Special Collection Outer Wear Mont ) for (450 L.E) ?")  ;
+else if (number==10)var temp = confirm("Are you sure you want yo buy ( Premoda Casual Leather Belt - Black  ) for (100 L.E) ?")  ;
+else if (number==11) var temp = confirm("Are you sure you want yo buy ( Adidas Team Five Special Edition - EDT - For Men - 100ml ) for (238 L.E) ?")  ;
+else if (number==12) var temp = confirm("Are you sure you want yo buy ( Baogela Baograa Baogela Multi-function Men's Watch Casual Sports Men's Waterproof Leather Quartz Watch Men's Watch ) for (436 L.E) ?")  ;
+else if (number==13) var temp = confirm("Are you sure you want yo buy ( Swatch Swatch Irony Wales Chronograph Men's Watch YVS410G ) for (3,229 L.E) ?")  ;
+else if (number==14) var temp = confirm("Are you sure you want yo buy ( Carolina Herrera 212 VIP Black - EDP - For Men - 100ml) for (1,600 L.E) ?")  ;
+else if (number==15) var temp = confirm("Are you sure you want yo buy ( Fashion Men Breathable Sport Shoes Outdoor Running Sneakers-Black/Orange ) for (999 L.E) ?")  ;
+else if (number==16) var temp = confirm("Are you sure you want yo buy ( Generic Excellent Polarized Mirror Sunglasses For Men-black ) for (284 L.E) ?")  ;
+else if (number==17) var temp = confirm("Are you sure you want yo buy ( Akai Mohamed Salah Akai Printed Cotton T-Shirt First Rate For Men - Black) for (99 L.E) ?")  ;
+else if (number==18)var temp = confirm("Are you sure you want yo buy ( Diadora Men Cotton Jogger Pants - DarkGry) for (449 L.E) ?")  ;
+else if (number==19)var temp = confirm("Are you sure you want yo buy ( Adidas MEN ATHLETICS GAME TIME TRACK SUIT) for (1,200 L.E) ?")  ;
+else if (number==20)var temp = confirm("Are you sure you want yo buy ( Generic Casual Slim Plain Mens Solid Skinny Neck Party Wedding Tie Necktie ) for (384 L.E) ?")  ;
+else if (number==21) var temp = confirm("Are you sure you want yo buy (Generic Quartz Stainless Steel Watch) for (285 L.E) ?")  ;
+while (true){if (temp==false) break; 
+var temp1=prompt("Please type your address");
+ if (temp1.length >0 && temp1 !="null" ) {alert ("You will recieve your item within 3 days");break;}
+else {
+alert ("The address section is empty please enter your address or cancel your request");
+
+}
+}
+
+}
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+/* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft = "0";
+}
+</script>
+<style type ="text/css">
+td:hover{
+background-color:#5f5f5f;
+}
+table{
+border: none;
+background-color: #FFFFFF;
+}
+.firstcol{
+background-color:#E9CCB1 ;
+}
+.secondcol{
+background-color:BEIGE;}
+.thirdcol{background-color: LIGHTGREY;}
+td{ padding: 1 px;
+text-align :center;
+border-bottom: 1px solid #ddd;
+}
+img{
+width:60%;
+height:90%;
+}
+
+.image{
+width:100%; 
+height:270px;}
+
+input[type=button]{
+width:90px;
+}
+.imgsidebar{height:100%;width:100%;}
+.sidebar {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+}
+
+/* The sidebar links */
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* The button used to open the sidebar */
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s; /* If you want a transition effect */
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}	
+</style>
+<title>
+Men
+</title>
+</head>
+<body>
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="../home/home.html">Home</a>
+  <a href="../Login/login form.html">Login</a>
+  <a href="../Register/Register.html">Register</a>
+<a href="../Login/login form.html">Logout</a>
+<a href="../Men/Men.html" > Men <br><img class="imgsidebar" src="Men.png" alt="Men" height = "100%" width="100%" /></a>
+<a href="../Women/Women new.html" >Women <br><img class="imgsidebar" src="Women.png" alt="Women" height = "100%" width="100%" /></a>
+<a href="../kids/kids.html" > Kids <br><img class="imgsidebar" src="Kids.png"alt="Kids" height = "100%" width="100%"  /></a>
+</div>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()">&#9776; Menu</button> 
+  
+</div>
+<img class="image" id="mencorner" src ="mencorner.jpg">
+<br><br><br>
+<table>
+<tr> <td class="firstcol"><img  id="1" src="1.jpg" />
+<figcaption>
+Andora Basic Solid V-Neck Slip On T-shirt - Baby Blue <br>
+99  L.E<br>
+<input type="button" value="Buy"  onclick= "sendtocart('1')">
+</figcaption></td>
+<td class="secondcol"><img id="2" src="2.jpg" />
+<figcaption>
+Activ Solid Men Short Sleeves Round Neck T-Shirt - Orange<br>
+89 L.E <br>
+<input type="button" value="Buy" onclick= "sendtocart('2')">
+</figcaption></td>
+<td class="thirdcol"><figure id="3"> <img src="3.jpg" />
+<figcaption>
+Street Fashion V-Neck Short Sleeves Slip On T-shirt - Navy Blue<br>
+110 L.E<br>
+<input type="button"  value="Buy"  onclick= "sendtocart('3')">
+</figcaption>
+</figure></td></tr>
+<tr> <td class="firstcol"><figure id="4"> <img src="4.jpg" />
+<figcaption>
+Fashion Korean Version Of The Coat Fashion Wool Double-breasted Long Trench Coat Coat-black<br>
+677 L.E<br>
+<input type="button"  value="Buy"  onclick= "sendtocart('4')">
+</figcaption>
+</figure></td>
+<td class="secondcol"><figure id="5"> <img src="5.jpg" />
+<figcaption>
+Generic New Arrivel Casual Jacket Coat Men's Winter Long Sleeve Jacket Slim Fit Stand Collar-blue<br>
+388 L.E<br>
+<input type="button"  value="Buy"  onclick= "sendtocart('5')">
+</figcaption>
+</figure></td>
+<td class="thirdcol"><figure id="6"> <img src="6.jpg" />
+<figcaption>
+Fashion Men's Casual Lace-up Comfortable Breathable Sneakers-grey <br>
+604 L.E<br>
+<input type="button"  value="Buy"  onclick= "sendtocart('6')">
+</figcaption>
+</figure></td>
+<tr> <td class="firstcol" ><figure id="7"> <img src="7.jpg" />
+<figcaption>
+Fashion Winter Autumn Mens Plus-size Cotton Denim Slim-fit Straight Long Jeans Trouser-Dark Blue<br>
+332 L.E<br>
+<input type="button"  value="Buy"  onclick= "sendtocart('7')">
+</figcaption>
+</figure></td>
+<td class="secondcol"><figure id="8"> <img src="8.jpg" />
+<figcaption>
+Andora Canvas Slip On Shoes - White<br>
+179 L.E<br>
+<input type="button" value="Buy"  onclick= "sendtocart('8')">
+</figcaption>
+</figure></td>
+<td class="thirdcol"><figure id="9"> <img src="9.jpg" />
+<figcaption>
+Defacto Man Special Collection Outer Wear Mont <br>
+450 L.E<br>
+<input type="button"  value="Buy"  onclick= "sendtocart('9')">
+</figcaption>
+</figure></td><tr>
+<td class="firstcol"><figure id="10"> <img src="10.jpg" />
+<figcaption>
+Premoda Casual Leather Belt - Black <br>
+100 L.E<br>
+<input type="button"  value="Buy" onclick= "sendtocart('10')">
+</figcaption>
+</figure></td>
+<td class="secondcol"><figure id="11"> <img src="11.jpg" />
+<figcaption>
+Adidas Team Five Special Edition - EDT - For Men - 100ml<br>
+238 L.E<br>
+<input type="button" value="Buy"  onclick= "sendtocart('11')">
+</figcaption>
+</figure></td>
+<td class="thirdcol"><figure id="12"> <img src="12.jpg" />
+<figcaption>
+Baogela Baograa Baogela Multi-function Men's Watch Casual Sports Men's Waterproof Leather Quartz Watch Men's Watch<br>
+436 L.E<br>
+<input type="button"  value="Buy"  onclick= "sendtocart('12')">
+</figcaption>
+</figure></td>
+<tr><td class="firstcol"><figure id="13"> <img src="13.jpg" />
+<figcaption>
+Swatch Swatch Irony Wales Chronograph Men's Watch YVS410G<br>
+3,229 L.E<br>
+<input type="button"  value="Buy" onclick= "sendtocart('13')">
+</figcaption>
+</figure></td>
+<td class="secondcol"><figure id="14"> <img src="14.jpg" />
+<figcaption>
+Carolina Herrera 212 VIP Black - EDP - For Men - 100ml<br>
+1,600 L.E<br>
+<input type="button"  value="Buy"  onclick= "sendtocart('14')">
+</figcaption>
+</figure></td>
+<td class="thirdcol"><figure id="15"> <img src="15.jpg" />
+<figcaption>
+Fashion Men Breathable Sport Shoes Outdoor Running Sneakers-Black/Orange<br>
+999 L.E<br>
+<input type="button" value="Buy"  onclick= "sendtocart('15')">
+</figcaption>
+</figure></td>
+</tr><tr><td class="firstcol"><figure id="16"> <img src="16.jpg" />
+<figcaption>
+Generic Excellent Polarized Mirror Sunglasses For Men-black<br>
+284 L.E<br>
+<input type="button"  value="Buy" onclick= "sendtocart('16')">
+</figcaption>
+</figure></td>
+<td class="secondcol"><figure id="17"> <img src="17.jpg" />
+<figcaption>
+Akai Mohamed Salah Akai Printed Cotton T-Shirt First Rate For Men - Black<br>
+99 L.E<br>
+<input type="button"  value="Buy"  onclick= "sendtocart('17')">
+</figcaption>
+</figure></td>
+<td class="thirdcol"><figure id="18"> <img src="18.jpg" />
+<figcaption>
+Diadora Men Cotton Jogger Pants - DarkGry<br>
+449 L.E<br>
+<input type="button" value="Buy"  onclick= "sendtocart('18')">
+</figcaption>
+</figure></td>
+<tr><td class="firstcol"><figure id="19"> <img src="19.jpg" />
+<figcaption>
+Adidas MEN ATHLETICS GAME TIME TRACK SUIT<br>
+1,200 L.E<br>
+<input type="button" value="Buy"  onclick= "sendtocart('19')">
+</figcaption>
+</figure></td>
+<td class="secondcol"><figure id="20"> <img src="20.jpg" />
+<figcaption>
+Generic Casual Slim Plain Mens Solid Skinny Neck Party Wedding Tie Necktie<br>
+384 L.E<br>
+<input type="button"  value="Buy"  onclick= "sendtocart('20')">
+</figcaption>
+</figure></td>
+<td class="thirdcol"><figure id="21"> <img src="21.jpg" />
+<figcaption>
+Generic Quartz Stainless Steel Watch<br>
+285 L.E<br>
+<input type="button"  value="Buy" onclick= "sendtocart('21')">
+</figcaption>
+</figure></td>
+
+</table>
+</body>

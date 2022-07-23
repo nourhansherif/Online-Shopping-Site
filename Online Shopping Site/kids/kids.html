@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type ="text/javascript">
+function buy(number){
+if (number==1) var temp = confirm("Are you sure you want yo buy ( Activ Boys Summer Short Sleeves T-shirt - White ) for (89 L.E) ?")  ;
+else if (number==2) var temp = confirm("Are you sure you want yo buy (kady Boys Front Printed Pajama Set - Baby Blue ) for (150 L.E) ?")  ;
+else if (number==3) var temp = confirm("Are you sure you want yo buy ( One To 12 Subway Boys Pjama -Orange) for (175 L.E) ?")  ;
+else if (number==4) var temp = confirm("Are you sure you want yo buy ( Generic Fashion Sneakers -Black) for (230 L.E) ?")  ;
+else if (number==5) var temp = confirm("Are you sure you want yo buy (Andora Zipper Sweatshirt -Navy Blue) for (239 L.E) ?")  ;
+else if (number==6)var temp = confirm("Are you sure you want yo buy (Generic Boys Printed Round Neck T-shirt - Cotton ) for (120 L.E) ?")  ;
+else if (number==7) var temp = confirm("Are you sure you want yo buy (Kady Girls Bi-Tone Sleeveless Dress - Watermelon & Black) for ( 250 L.E) ?")  ;
+else if (number==8) var temp = confirm("Are you sure you want yo buy (Activ Girls Lace Up Sneakers - Purple & Pink ) for ( 389 L.E) ?")  ;
+else if (number==9) var temp = confirm("Are you sure you want yo buy (IZOR Girls Printed Cat Pajama Set - Watermelon & Black ) for (250  L.E) ?")  ;
+else if (number==10)var temp = confirm("Are you sure you want yo buy (Kubo Cold Shoulder Ruffle Sleeves Dress - Black & Red  ) for (150  L.E) ?")  ;
+else if (number==11) var temp = confirm("Are you sure you want yo buy (Defacto Fashionable Topper / Jacket / Windjammer - Pink ) for (450 L.E) ?")  ;
+else if (number==12) var temp = confirm("Are you sure you want yo buy (Generic Fashion Necklace And Bracelet Set For Girls, Multi Color ) for (30 L.E) ?")  ;
+else if (number==13) var temp = confirm("Are you sure you want yo buy (Haya Leather Lace Up Shoes For Girls ) for (300  L.E) ?")  ;
+else if (number==14) var temp = confirm("Are you sure you want yo buy (Toddler Baby Girls Kids Strap Bow Dot Print Summer Dress ) for (300 L.E) ?")  ;
+else if (number==15) var temp = confirm("Are you sure you want yo buy (Andora Elephant Girls Sweatshirt_Yellow ) for ( 259 L.E) ?")  ;
+else if (number==16) var temp = confirm("Are you sure you want yo buy (Cartoon Print T Shirts Top -Blue ) for (150 L.E) ?")  ;
+else if (number==17) var temp = confirm("Are you sure you want yo buy (Toddler Baby Boys Short Sleeve Fish Bone Print Tops T-shirt Pants Set Outfit- Blue  ) for (340 L.E) ?")  ;
+else if (number==18)var temp = confirm("Are you sure you want yo buy (Toddler Baby Girls Letter Outfits Clothes Romper Tops Long Pants 4PCS Set) for (449 L.E) ?")  ;
+else if (number==19)var temp = confirm("Are you sure you want yo buy (Fashion Comfortable 2Pcs Toddler Baby Infant Boys Outfits Dinosaurs T-shirt+Strap Pants) for (560 L.E) ?")  ;
+else if (number==20)var temp = confirm("Are you sure you want yo buy (Toddler Kids Baby Boys Cartoon Print T Shirt Tops Jeans Short 2PC Outfits Sets) for (740 L.E) ?")  ;
+else if (number==21) var temp = confirm("Are you sure you want yo buy (Toddler Infant Baby Girl Deer Princess Dress Striped Pants Christmas Clothes Set) for (780 L.E) ?")  ;
+while (true){if (temp==false) break; 
+var temp1=prompt("Please type your address");
+ if (temp1.length >0 && temp1 !="null" ) {alert ("You will recieve your item within 3 days");break;}
+else {
+alert ("The address section is empty please enter your address or cancel your request");
+}
+}
+}
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+/* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft = "0";
+}
+</script>
+<style type ="text/css">
+td:hover{
+background-color:#5f5f5f;
+}
+img {width:300px;
+height:250px;
+float :center;
+}
+.image{
+width:100%;
+}
+.firstcol{
+background-color: #FFDAC1;
+}
+.secondcol{
+background-color: lightyellow;
+} 
+.thirdcol{
+background-color: #DEF3FD;
+}
+td{ padding: 1 px;
+text-align :center;
+border-bottom: 1px solid #ddd;
+}
+.imgsidebar{height:100%; width:100%;}
+.sidebar {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+}
+
+/* The sidebar links */
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* The button used to open the sidebar */
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s; /* If you want a transition effect */
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}	
+</style>
+<title> Kids </title>
+</head>
+<body>
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="../home/home.html">Home</a>
+  <a href="../Login/login form.html">Login</a>
+  <a href="../Register/Register.html">Register</a>
+<a href="../Login/login form.html">Logout</a>
+<a href="../Men/Men.html" > Men <br><img class="imgsidebar" src="Men.png" alt="Men" height = "100%" width="100%" /></a>
+<a href="../Women/Women new.html" >Women <br><img class="imgsidebar" src="Women.png" alt="Women" height = "100%" width="100%" /></a>
+<a href="../kids/kids.html" > Kids <br><img class="imgsidebar" src="Kids.png"alt="Kids" height = "100%" width="100%"  /></a>
+</div>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()">&#9776; Menu</button> 
+  
+</div>
+<img class="image" id="kidscorner" src ="kidscorner.jpg">
+<br><br>
+<table>
+
+<tr> <td class="firstcol"> <img  id="1" src="1.jpg" />
+<figcaption>
+Activ Boys Summer Short Sleeves T-shirt - White <br>
+89 L.E <br>
+<input type="button" value="Buy"  onclick= "buy('1')">
+</figcaption> </td>
+
+<td class="secondcol"> <img id="2" src="2.jpg"/>
+<figcaption>
+kady Boys Front Printed Pajama Set - Baby Blue <br>
+150 L.E <br>
+<input type="button" value="Buy" onclick= "buy('2')">
+</figcaption> </td>
+
+<td class="thirdcol"><img id="3" src="3.jpg"/>
+<figcaption>
+One To 12 Subway Boys Pjama -Orange <br>
+175 L.E<br>
+<input type="button" value="Buy" onclick= "buy('3')">
+</figcaption>
+</td></tr>
+
+<tr> <td class="firstcol"> <img id="4" src="4.jpg" />
+<figcaption>
+Generic Fashion Sneakers -Black <br>
+230 L.E<br>
+<input type="button" value="Buy" onclick= "buy('4')">
+</figcaption>
+</figure></td>
+
+<td class="secondcol"><img id="5" src="5.jpg"/>
+<figcaption>
+Andora Zipper Sweatshirt -Navy Blue <br>
+239 L.E<br>
+<input type="button" value="Buy" onclick= "buy('5')">
+</figcaption>
+</td>
+
+<td class="thirdcol"><img  id="6" src="6.jpg" />
+<figcaption>
+Generic Boys Printed Round Neck T-shirt - Cotton <br>
+120 L.E<br>
+<input type="button" value="Buy" onclick= "buy('6')">
+</figcaption>
+</figure></td> <tr> 
+
+<td class="firstcol"> <img id="7" src="7.jpg"/>
+<figcaption>
+kady Girls Bi-Tone Sleeveless Dress - Watermelon & Black <br>
+250 L.E<br>
+<input type="button" value="Buy" onclick= "buy('7')">
+</figcaption>
+</figure></td>
+
+<td class="secondcol"><img id="8" src="8.jpg"/>
+<figcaption>
+Activ Girls Lace Up Sneakers - Purple & Pink <br>
+389 L.E<br>
+<input type="button" value="Buy" onclick= "buy('8')">
+</figcaption>
+</figure></td>
+
+
+<td class="thirdcol"><figure id="9"> <img src="9.jpg" />
+<figcaption>
+IZOR Girls Printed Cat Pajama Set - Watermelon & Black <br>
+250 L.E<br>
+<input type="button" value="Buy" onclick= "buy('9')">
+</figcaption>
+</figure></td><tr>
+
+<td class="firstcol"><figure id="10"> <img src="10.jpg" />
+<figcaption>
+Kubo Cold Shoulder Ruffle Sleeves Dress - Black & Red <br>
+150 L.E<br>
+<input type="button" value="Buy" onclick= "buy('10')">
+</figcaption>
+</figure></td>
+
+<td class="secondcol"><figure id="11"> <img src="11.jpg" />
+<figcaption>
+Defacto Fashionable Topper / Jacket / Windjammer - Pink<br>
+450 L.E<br>
+<input type="button" value="Buy" onclick= "buy('11')">
+</figcaption>
+</figure></td>
+
+<td class="thirdcol"><figure id="12"> <img src="12.jpg" />
+<figcaption>
+Generic Fashion Necklace And Bracelet Set For Girls, Multi Color <br>
+30 LE <br>
+<input type="button" value="Buy" onclick= "buy('12')">
+</figcaption>
+</figure></td>
+
+<tr> <td class="firstcol"><figure id="13"> <img src="13.jpg" />
+<figcaption>
+Haya Leather Lace Up Shoes For Girls <br>
+300 L.E<br>
+<input type="button" value="Buy" onclick= "buy('13')">
+</figcaption>
+</figure></td>
+
+<td class="secondcol"><figure id="14"> <img src="14.jpg" />
+<figcaption>
+Toddler Baby Girls Kids Strap Bow Dot Print Summer Dress <br>
+300 L.E<br>
+<input type="button" value="Buy" onclick= "buy('14')">
+</figcaption>
+</figure></td>
+
+<td class="thirdcol"><figure id="15"> <img src="15.jpg" />
+<figcaption>
+Andora Elephant Girls Sweatshirt_Yellow <br>
+259 L.E<br>
+<input type="button" value="Buy" onclick= "buy('15')">
+</figcaption>
+</figure></td></tr>
+
+<tr><td class="firstcol"><figure id="16"> <img src="16.jpg" />
+<figcaption>
+Cartoon Print T Shirts Top -Blue <br>
+150 L.E<br>
+<input type="button" value="Buy" onclick= buy('16')">
+</figcaption>
+</figure></td>
+
+<td class="secondcol"><figure id="17"> <img src="17.jpg" />
+<figcaption>
+Toddler Baby Boys Short Sleeve Fish Bone Print Tops T-shirt Pants Set Outfit- Blue <br>
+340 L.E<br>
+<input type="button" value="Buy" onclick= "buy('17')">
+</figcaption>
+</figure></td>
+
+<td class="thirdcol"><figure id="18"> <img src="18.jpg" />
+<figcaption>
+Toddler Baby Girls Letter Outfits Clothes Romper Tops Long Pants 4PCS Set<br>
+449 L.E<br>
+<input type="button" value="Buy" onclick= "buy('18')">
+</figcaption>
+</figure></td>
+
+<tr><td class="firstcol"><figure id="19"> <img src="19.jpg" />
+<figcaption>
+Fashion Comfortable 2Pcs Toddler Baby Infant Boys Outfits Dinosaurs T-shirt+Strap Pants<br>
+560 L.E<br>
+<input type="button" value="Buy" onclick= "buy('19')">
+</figcaption>
+</figure></td>
+
+<td class="secondcol"><figure id="20"> <img src="20.jpg" />
+<figcaption>
+Toddler Kids Baby Boys Cartoon Print T Shirt Tops Jeans Short 2PC Outfits Sets<br>
+740 L.E<br>
+<input type="button" value="Buy"onclick= "buy('20')">
+</figcaption>
+</figure></td>
+
+<td class="thirdcol"><figure id="21"> <img src="21.jpg" />
+<figcaption>
+Toddler Infant Baby Girl Deer Princess Dress Striped Pants Christmas Clothes Set <br>
+780 L.E<br>
+<input type="button" value="Buy" onclick= "buy('21')">
+</figcaption>
+</figure></td>
+
+</table>
+</body>

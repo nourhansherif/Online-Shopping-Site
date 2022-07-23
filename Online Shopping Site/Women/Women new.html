@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type ="text/javascript">
+
+function sendtocart(number){
+if (number==1) var temp = confirm("Are you sure you want yo buy ( Forever 21 dress For Women ) for (525.00 EGP) ?")  ;
+else if (number==2) var temp = confirm("Are you sure you want yo buy ( Dress ity by Lady Daiana ) for (155.00 EGP) ?")  ;
+else if (number==3) var temp = confirm("Are you sure you want yo buy ( Fendi Sunglasses For Women - 0215/S 0LB/JF) for (5,500.00 EGP) ?")  ;
+else if (number==4) var temp = confirm("Are you sure you want yo buy ( Generic Vacation Two Long Dress Literary Flax Loose Cotton Hemp Skirt Blue) for (EGP 245) ?")  ;
+else if (number==5) var temp = confirm("Are you sure you want yo buy ( Generic Womens Chiffon Chevron Backless Mini Dress - Black & White ) for (EGP 80) ?")  ;
+else if (number==6)var temp = confirm("Are you sure you want yo buy ( Generic Lace splicing Chiffon dress Women's Beautiful dress one-piece dress Solid longuette  ) for (EGP 256) ?")  ;
+else if (number==7) var temp = confirm("Are you sure you want yo buy ( AFashion New Casual Ladies European And American Fashion Color Matching Irregular Long-sleeved Sweater Knit Cardigan-Graye ) for (EGP 166) ?")  ;
+else if (number==8) var temp = confirm("Are you sure you want yo buy ( ZANZEA Women Long Sleeve Pockets Button Fashion Gray Wool Blend Coat ) for (EGP 540) ?")  ;
+else if (number==9) var temp = confirm("Are you sure you want yo buy ( Fashion Hiamok Women Floral Print Chiffon Loose Shawl Kimono ) for (EGP 474) ?")  ;
+else if (number==10)var temp = confirm("Are you sure you want yo buy ( Sun Set Women Cover-ups Swimwear Pure Kaftan Chiffon PINK  ) for (EGP 110) ?")  ;
+else if (number==11) var temp = confirm("Are you sure you want yo buy ( SHEIN Palm Leaf Print Cut Out Tankini Set ) for (EGP 363) ?")  ;
+else if (number==12) var temp = confirm("Are you sure you want yo buy ( Generic CarrKen Flap Wallets - Wallet For Women - Purple ) for (EGP 363) ?")  ;
+else if (number==13) var temp = confirm("Are you sure you want yo buy ( Generic Eclipse Glasses Woman Cat Vintage Metal Frame Mirror Sunglasses ) for (EGP 116) ?")  ;
+else if (number==14) var temp = confirm("Are you sure you want yo buy ( Fashion Women Summer Straw Beach Hat - Light Blue) for (EGP 76) ?")  ;
+else if (number==15) var temp = confirm("Are you sure you want yo buy (Activ Women's Indoor Slipper - Pink ) for (EGP 89) ?")  ;
+else if (number==16) var temp = confirm("Are you sure you want yo buy ( Morrow Wear Front Tie Pants - Light Brown ) for (EGP 130) ?")  ;
+else if (number==17) var temp = confirm("Are you sure you want yo buy ( Fashion Hiamok Women's Summer Fashion Wedge Slipper) for (EGP 217) ?")  ;
+else if (number==18)var temp = confirm("Are you sure you want yo buy ( ZANZEA ZANZEA Women Summer Casual Tank Tops Ruffles Sleeveless Crew Neck Shirt Tee Camisole Blouse (White)) for (EGP 426) ?")  ;
+else if (number==19)var temp = confirm("Are you sure you want yo buy ( Defacto Woman Woven Top Long Sleeve Woven Tunic - BE389) for (EGP 399) ?")  ;
+else if (number==20)var temp = confirm("Are you sure you want yo buy ( ZANZEA Women Casual Long Sleeve Cotton Blouse T Shirt Loose Top ) for (EGP 185) ?")  ;
+else if (number==21) var temp = confirm("Are you sure you want yo buy (Generic Neckline Long Dress - White) for (EGP 245 ?")  ;
+while (true){if (temp==false) break; 
+var temp1=prompt("Please type your address");
+ if (temp1.length >0 && temp1 !="null" ) {alert ("You will recieve your item within 3 days");break;}
+else {
+alert ("The address section is empty please enter your address or cancel your request");
+
+}
+}
+
+}
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+/* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft = "0";
+}
+</script>
+<style type ="text/css">
+td:hover{
+background-color:#5f5f5f;
+}
+table{
+border: none;
+background-color: #FFFFFF;
+}
+.firstcol{
+background-color:lightblue;
+}
+.secondcol{
+background-color: lightgrey;}
+.thirdcol{background-color: lightpink;}
+td{ padding: 1 px;
+text-align :center;
+border-bottom: 1px solid #ddd;
+}
+img{
+width:300px;
+height:250px;
+float: center;
+}
+
+.image{
+width:100%;
+}
+input[type=button]{
+width:90px;
+}
+.imgsidebar{height:100%;width:100%;}
+.sidebar {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+}
+
+/* The sidebar links */
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* The button used to open the sidebar */
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s; /* If you want a transition effect */
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}	
+</style>
+<title>
+Women
+</title>
+</head>
+<body bgcolor="lightyellow">
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="../home/home.html">Home</a>
+  <a href="../Login/login form.html">Login</a>
+  <a href="../Register/Register.html">Register</a>
+<a href="../Login/login form.html">Logout</a>
+<a href="../Men/Men.html" > Men <br><img class="imgsidebar" src="Men.png" alt="Men" height = "100%" width="100%" /></a>
+<a href="../Women/Women new.html" >Women <br><img class="imgsidebar" src="Women.png" alt="Women" height = "100%" width="100%" /></a>
+<a href="../kids/kids.html" > Kids <br><img class="imgsidebar" src="Kids.png"alt="Kids" height = "100%" width="100%"  /></a>
+</div>
+
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()">&#9776; Menu</button> 
+  
+</div>
+<img class="image" id="womencorner" src ="womencorner.jpg">
+<br><br><br>
+<table>
+<tr> <td class="firstcol"><img  id="1" src="1.jpg" />
+<figcaption>
+Forever 21 dress For Women <br>
+525.00 EGP<br>
+<input type="button" value="Buy"  onclick= "sendtocart('1')">
+</figcaption></td>
+<td class="secondcol"><img id="2" src="2.jpg" />
+<figcaption>
+Dress ity by Lady Daiana<br>
+155.00 EGP <br>
+<input type="button" value="Buy" onclick= "sendtocart('2')">
+</figcaption></td>
+<td class="thirdcol"><figure id="3"> <img src="3.jpg" />
+<figcaption>
+Fendi Sunglasses For Women - 0215/S 0LB/JF<br>
+5,500.00 EGP<br>
+<input type="button"  value="Buy"  onclick= "sendtocart('3')">
+</figcaption>
+</figure></td></tr>
+<tr> <td class="firstcol"><figure id="4"> <img src="4.jpg" />
+<figcaption>
+Generic Vacation Two Long Dress Literary Flax Loose Cotton Hemp Skirt Blue<br>
+EGP 245<br>
+<input type="button"  value="Buy"  onclick= "sendtocart('4')">
+</figcaption>
+</figure></td>
+<td class="secondcol"><figure id="5"> <img src="5.jpg" />
+<figcaption>
+Generic Womens Chiffon Chevron Backless Mini Dress - Black & White<br>
+EGP 80<br>
+<input type="button"  value="Buy"  onclick= "sendtocart('5')">
+</figcaption>
+</figure></td>
+<td class="thirdcol"><figure id="6"> <img src="6.jpg" />
+<figcaption>
+Generic Lace splicing Chiffon dress Women's Beautiful dress one-piece dress Solid longuette <br>
+EGP 256<br>
+<input type="button"  value="Buy"  onclick= "sendtocart('6')">
+</figcaption>
+</figure></td>
+<tr> <td class="firstcol" ><figure id="7"> <img src="7.jpg" />
+<figcaption>
+Fashion New Casual Ladies European And American Fashion Color Matching Irregular Long-sleeved Sweater Knit Cardigan-Graye<br>
+EGP 166<br>
+<input type="button"  value="Buy"  onclick= "sendtocart('7')">
+</figcaption>
+</figure></td>
+<td class="secondcol"><figure id="8"> <img src="8.jpg" />
+<figcaption>
+ZANZEA Women Long Sleeve Pockets Button Fashion Gray Wool Blend Coat<br>
+EGP 540<br>
+<input type="button" value="Buy"  onclick= "sendtocart('8')">
+</figcaption>
+</figure></td>
+<td class="thirdcol"><figure id="9"> <img src="9.jpg" />
+<figcaption>
+Fashion Hiamok Women Floral Print Chiffon Loose Shawl Kimono <br>
+EGP 474<br>
+<input type="button"  value="Buy"  onclick= "sendtocart('9')">
+</figcaption>
+</figure></td><tr>
+<td class="firstcol"><figure id="10"> <img src="10.jpg" />
+<figcaption>
+Sun Set Women Cover-ups Swimwear Pure Kaftan Chiffon PINK <br>
+EGP 110<br>
+<input type="button"  value="Buy" onclick= "sendtocart('10')">
+</figcaption>
+</figure></td>
+<td class="secondcol"><figure id="11"> <img src="11.jpg" />
+<figcaption>
+SHEIN Palm Leaf Print Cut Out Tankini Set<br>
+EGP 363<br>
+<input type="button" value="Buy"  onclick= "sendtocart('11')">
+</figcaption>
+</figure></td>
+<td class="thirdcol"><figure id="12"> <img src="12.jpg" />
+<figcaption>
+Generic CarrKen Flap Wallets - Wallet For Women - Purple<br>
+EGP 363<br>
+<input type="button"  value="Buy"  onclick= "sendtocart('12')">
+</figcaption>
+</figure></td>
+<tr><td class="firstcol"><figure id="13"> <img src="13.jpg" />
+<figcaption>
+Generic Eclipse Glasses Woman Cat Vintage Metal Frame Mirror Sunglasses<br>
+EGP 116<br>
+<input type="button"  value="Buy" onclick= "sendtocart('13')">
+</figcaption>
+</figure></td>
+<td class="secondcol"><figure id="14"> <img src="14.jpg" />
+<figcaption>
+Fashion Women Summer Straw Beach Hat - Light Blue<br>
+EGP 76<br>
+<input type="button"  value="Buy"  onclick= "sendtocart('14')">
+</figcaption>
+</figure></td>
+<td class="thirdcol"><figure id="15"> <img src="15.jpg" />
+<figcaption>
+Activ Women's Indoor Slipper - Pink<br>
+EGP 89<br>
+<input type="button" value="Buy"  onclick= "sendtocart('15')">
+</figcaption>
+</figure></td>
+</tr><tr><td class="firstcol"><figure id="16"> <img src="16.jpg" />
+<figcaption>
+Morrow Wear Front Tie Pants - Light Brown<br>
+EGP 130<br>
+<input type="button"  value="Buy" onclick= "sendtocart('16')">
+</figcaption>
+</figure></td>
+<td class="secondcol"><figure id="17"> <img src="17.jpg" />
+<figcaption>
+Fashion Hiamok Women's Summer Fashion Wedge Slipper<br>
+EGP 217<br>
+<input type="button"  value="Buy"  onclick= "sendtocart('17')">
+</figcaption>
+</figure></td>
+<td class="thirdcol"><figure id="18"> <img src="18.jpg" />
+<figcaption>
+ZANZEA ZANZEA Women Summer Casual Tank Tops Ruffles Sleeveless Crew Neck Shirt Tee Camisole Blouse (White)<br>
+EGP 426<br>
+<input type="button" value="Buy"  onclick= "sendtocart('18')">
+</figcaption>
+</figure></td>
+<tr><td class="firstcol"><figure id="19"> <img src="19.jpg" />
+<figcaption>
+Defacto Woman Woven Top Long Sleeve Woven Tunic - BE389<br>
+EGP 399<br>
+<input type="button" value="Buy"  onclick= "sendtocart('19')">
+</figcaption>
+</figure></td>
+<td class="secondcol"><figure id="20"> <img src="20.jpg" />
+<figcaption>
+ZANZEA Women Casual Long Sleeve Cotton Blouse T Shirt Loose Top<br>
+EGP 185<br>
+<input type="button"  value="Buy"  onclick= "sendtocart('20')">
+</figcaption>
+</figure></td>
+<td class="thirdcol"><figure id="21"> <img src="21.jpg" />
+<figcaption>
+Generic Neckline Long Dress - White<br>
+EGP 245<br>
+<input type="button"  value="Buy" onclick= "sendtocart('21')">
+</figcaption>
+</figure></td>
+
+</table>
+</body>
